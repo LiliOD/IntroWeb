@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1535392432937-a27c36ec07b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=800");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#contenedor{
+    width: 900px;
+    height: 1600px;
+    margin: 2em auto;
+    padding: 1em;
+    background: rgb(160, 189, 216);
+    opacity: 85%;
+    box-shadow: 5px 5px 15px 5px #ff74a2, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #6aaee2, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #ff6183, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+
+#header{
+    height: 12%;
+    border-radius: 50pt;
+    margin: 10pt;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav{
+    height: 5%;
+    background: #ff6188;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+.boton{
+    height: 80%;
+    width: 31%;
+    border: none;
+    border-radius: 2em;
+    background: #E488FF;
+    margin: 0.4em;
+    float: left;
+    padding: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+}
+.boton:hover{
+    transition-duration: 0.4s;
+    background-color: #f5872e;
+    
+}
+
+#contenido{
+    height: 69%;
+    border-radius: 2em;
+    margin: 1em;
+    text-align: justify;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+ul{
+    margin: 8px;
+    padding: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+}
+#pie{
+    height: 8%;
+    background: #FF8080;
+    border-radius: 2em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
