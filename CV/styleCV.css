@@ -13,7 +13,7 @@ a{
 .sec-1{
     width: 100%;
     height: 95vh;
-    background-image: url(/fondo_3.jpg);
+    background-image: url(/CV/fondo_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -159,7 +159,7 @@ nav ul li a{
 .caja1,.caja2,.caja3{
     width: 300px;
     height: 500px;
-    background-image: url(/box-font.jpg);
+    background-image: url(/CV/box-font.jpg);
     background-size:cover;
     background-color: rgb(248, 240, 240);
     display: flex;
@@ -202,7 +202,7 @@ nav ul li a{
 
 .pie-fin{
     height: 200px;
-    background-image: url(/fondo-pie.jpg);
+    background-image: url(/CV/fondo-pie.jpg);
     background-size: contain;
     display: flex;
     flex-direction: column;
